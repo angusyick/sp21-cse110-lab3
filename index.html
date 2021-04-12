@@ -132,6 +132,77 @@
         </details>
     
       </section>
+      
+      <section>
+      	<h3>New Journal Entry:</h3>
+      
+      	<form action="" method="get" class="new-journal-entry">
+          <div class="new-journal-entry">
+            <label for="date">Enter the date: </label>
+            <input type="date" date="date" id="date" required>
+          </div>
+          
+          <label for="week">Day of the Week:</label>
+         <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+          
+          <datalist id="ice-cream-flavors">
+              <option value="Monday">
+              <option value="Tuesday">
+              <option value="Wednesday">
+              <option value="Thursday">
+              <option value="Friday">
+              <option value="Saturday">
+              <option value="Sunday">
+          </datalist><br>
+          
+          <label for="select">Did you pet your dog today?</label>
+
+          <select id="select">
+              <option value="">--Please choose an option--</option>
+              <option value="yes">yes</option>
+              <option value="no">no</option>
+          </select>
+          
+          <fieldset>
+            <legend>Did you have a good day?:</legend>
+
+            <input type="radio" id="yes" name="yes">
+            <label for="yes">Yes</label><br/>
+
+            <input type="radio" id="no" name="no">
+            <label for="no">No</label><br/>
+            
+          </fieldset><br>
+          
+          <fieldset>
+            <legend>Did you go outside today?:</legend>
+
+            <input type="checkbox" id="yes" name="yes">
+            <label for="yes">Yes</label><br/>
+
+            <input type="checkbox" id="no" name="no">
+            <label for="no">No</label><br/>
+            
+          </fieldset><br>
+          
+          <fieldset>
+            <legend>Did you get some exercise today?:</legend>
+
+            <input type="text" id="yes" name="yes">
+            <label for="yes">Yes/No?</label><br/>
+            
+          </fieldset><br>
+          
+          <textarea id="story" name="story"
+                    rows="5" cols="33">
+Write Journal Entry Here...
+          </textarea><br>
+          
+          <button class="favorite styled"
+                  type="button">
+Done!          </button>
+        </form>
+      </section>
         
       <hr>
       
