@@ -1,1 +1,16 @@
+.box {
+    background-color: #7400ff;
+}
+
+h1 {
+    background-color: Blue;
+}
+
+h2 {
+    background-color: rgb(60,0,255);
+}
+
+h3 {
+    background-color: hsl(555,100,75);
+}
 
