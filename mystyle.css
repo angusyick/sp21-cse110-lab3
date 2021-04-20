@@ -1,21 +1,106 @@
-body {
+
+	/*comment*/
+
+    P:hover{
+	background-color: Yellow
+    }
+
+    li li {
+      list-style-type: circle;
+    }
+
+    div > span {
+      background-color: Yellow;
+    }
+
+    p ~ div {
+      color: red;
+    }
+
+    img + p {
+      color: green;
+    }
+
+    #date:active{
+	color: black;
+	}
+
+	p::first-line {
+	background-color: Yellow;
+    }
+
+    p.box{
+	background-color: Yellow;
+
+    }
+
+    a[href="https://github.com/angusyick/CSE110GitRepo"] {
+      color: green;
+    }
+
+    body {
 	background-color: rgb(60,0,255);
-}
+    }
 
-.box {
-    background-color: #7400ff;
-}
+    @media (max-width: 30em) {
 
-h1 {
-    background-color: Blue;
-}
+    }
 
-h2 {
-    background-color: rgb(60,0,255);
-}
+    .box {
+	margin-top: 100px;
+	background-color: #7400ff;
+    }
+    * [lang^=en] {
+      color: green;
+    }
 
-h3 {
-    background-color: hsl(555,100,75);
-}
+    *#select {
+	background-color: Yellow;
+	position: relative;
+			top: 2pt; left: .5in;
+	display:flex;
+    }
 
+    h1, h2, h3 {
+	color: CornSilk;
+	text-decoration: underline dotted;
+	text-align: center;
+	display: block;
+	display: flex;
+    }
 
+    h1 {
+	margin:auto;
+	background-color: Blue;
+	height: 100px;
+	max-width: 2000px;
+	position: absolute;
+			bottom: 400px; left: 20px;
+	font-size: 6ex;
+	padding: 50lh 2em;
+	border-width: 5px;
+	border-style: solid;
+	border-color: azure;
+	border-radius: 2px;
+	font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+	display:grid;
+    }
+
+    h2 {
+	background-color: rgb(60, 100, 255);
+	width: 500px;
+	max-height: 20px
+	margin: 1px 1px 1px 1px;
+	padding-top: 10px;
+	display: grid;
+    }
+
+    h3 {
+	background-color: hsl(555,100,75);
+	display: inline;
+	max-height: 10px;
+    }
+
+    *{
+	color: white;
+    }
